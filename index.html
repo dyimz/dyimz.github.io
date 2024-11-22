@@ -4,200 +4,279 @@
     <title>James Christian Villamin</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
       body {
-      font-family: Arial, sans-serif;
-      background-color: #000;
-      color: #fff;
-      text-align: center;
+        font-family: Arial, sans-serif;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        margin: 0;
       }
-      .tech-stack img {
-      margin: 0 5px;
+    
+      /* Ensure images and tables are responsive */
+      img {
+        max-width: 100%;
+        height: auto;
       }
-      .connect-links a {
-      margin: 0 10px;
-      text-decoration: none;
-      color: white;
+    
+      table {
+        width: 100%;
+        max-width: 100%;
       }
-      .connect-links img {
-      vertical-align: middle;
+    
+      td {
+        padding: 10px;
+        border: 1px solid white;
       }
-      header img {
-      width: 100%;
-      max-height: 400px;
-      object-fit: cover;
+    
+      /* Adjust font sizes for smaller screens */
+      @media (max-width: 768px) {
+        h1 {
+          font-size: 1.8rem;
+        }
+    
+        h3 {
+          font-size: 1rem;
+        }
+    
+        td img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    
+      @media (max-width: 576px) {
+        h1 {
+          font-size: 1.5rem;
+        }
+    
+        h3 {
+          font-size: 0.9rem;
+        }
+    
+        td {
+          padding: 5px;
+          font-size: 0.8rem;
+        }
+    
+        .container-fluid {
+          padding: 0 10px;
+        }
       }
     </style>
+
   </head>
   <body>
+      <div class="container-fluid">
+        <div class="row vh-100">
+          <!-- First Row -->
+          <div class="col-12 d-flex justify-content-center align-items-center border p-0">
+            <div class="position-relative w-100">
+              <img class="img-fluid w-100" src="Untitled.png" alt="Me">
+              <div class="position-absolute top-50 start-50 translate-middle text-center text-light">
+                <h1 class="d-none d-md-block display-4">JAMES CHRISTIAN VILLAMIN</h1>
+                <h5 class="d-block d-md-none">JAMES CHRISTIAN VILLAMIN</h5>
+                <h3 class="d-none d-sm-block">FULL STACK DEVELOPER</h3>
+              </div>
+            </div>
+          </div>
 
-    <!-- Header -->
-    <header class="w3-display-container w3-content w3-center" style="max-width:1500px">
-      <img class="w3-image" src="Untitled.png" alt="Me" width="1500" height="600">
-      <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
-      <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">JAMES CHRISTIAN VILLAMIN</h1>
-      <h5 class="w3-hide-large" style="white-space:nowrap">JAMES CHRISTIAN VILLAMIN</h5>
-      <h3 class="w3-hide-medium w3-hide-small">FULL STACK DEVELOPER</h3>
-      </div>
-    </header>
-
-    <div style="text-align: center; padding-left: 100px; padding-right: 100px;">
-      <table style="width: 100%; border-collapse: collapse; border: 2px solid white; ">
-      <tr>
-        <td style="text-align: center; padding: 10px; border: 1px solid white;">
-          <img src="https://github-readme-streak-stats.herokuapp.com/?user=Dyimz&stroke=ffffff&background=000000&ring=5BCDEC&fire=5BCDEC&currStreakNum=ffffff&currStreakLabel=5BCDEC&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="GitHub Streak Stats">
-          <br><br>
-          <span>
-          <img src="https://img.shields.io/badge/laravel-black?style=flat&logo=laravel&logoColor=white" alt="Laravel">
-          <img src="https://img.shields.io/badge/mysql-black?style=flat&logo=mysql&logoColor=white" alt="MySQL">
-          <img src="https://img.shields.io/badge/apache-black?style=flat&logo=apache&logoColor=white" alt="Apache">
-          <img src="https://img.shields.io/badge/nginx-black?style=flat&logo=nginx&logoColor=white" alt="Nginx">
-          <img src="https://img.shields.io/badge/node.js-black?style=flat&logo=node.js&logoColor=white" alt="NodeJS">
-          <img src="https://img.shields.io/badge/react-black?style=flat&logo=react&logoColor=%2361DAFB" alt="React">
-          <img src="https://img.shields.io/badge/cisco-black?style=flat&logo=cisco&logoColor=white" alt="Cisco">
-          </span>
-        </td>
-        <td style="text-align: center; padding: 10px; border: 1px solid white;">
-          <a href="https://github.com/dyimz/github-readme-stats" style="text-decoration: none; color: #ffffff;">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dyimz&theme=dark&custom_title=Most-Used-Languages" alt="Most-Used Languages">
-          </a>
-        </td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px; border: 1px solid white;">
-          <b>Back-End</b><br>
-          <img src="https://img.shields.io/badge/php-black?style=flat&logo=php&logoColor=white" alt="PHP">
-          <img src="https://img.shields.io/badge/python-black?style=flat&logo=python&logoColor=ffdd54" alt="Python">
-          <img src="https://img.shields.io/badge/c-black?style=flat&logo=c&logoColor=white" alt="C">
-          <img src="https://img.shields.io/badge/c%23-black?style=flat&logo=csharp&logoColor=white" alt="C#">
-          <img src="https://img.shields.io/badge/c++-black?style=flat&logo=c%2B%2B&logoColor=white" alt="C++">
-          <img src="https://img.shields.io/badge/java-black?style=flat&logo=openjdk&logoColor=white" alt="Java">
-          <img src="https://img.shields.io/badge/kotlin-black?style=flat&logo=kotlin&logoColor=white" alt="Kotlin">
-        </td>
-        <td style="text-align: center; padding: 10px; border: 1px solid white;">
-          <b>Design</b><br>
-          <img src="https://img.shields.io/badge/WordPress-black?style=flat&logo=WordPress&logoColor=white" alt="WordPress">
-          <img src="https://img.shields.io/badge/Canva-black?style=flat&logo=Canva&logoColor=white" alt="Canva">
-          <img src="https://img.shields.io/badge/Figma-black?style=flat&logo=figma&logoColor=white" alt="Figma">
-          <img src="https://img.shields.io/badge/Notion-black?style=flat&logo=notion&logoColor=white" alt="Notion">
-          <img src="https://img.shields.io/badge/Portfolio-black?style=flat&logo=firefox&logoColor=#FF7139" alt="Portfolio">
-          <img src="https://img.shields.io/badge/Postman-black?style=flat&logo=postman&logoColor=white" alt="Postman">
-          <img src="https://img.shields.io/badge/Prezi-black?style=flat&logo=Prezi&logoColor=white" alt="Prezi">
-          <img src="https://img.shields.io/badge/Twilio-black?style=flat&logo=Twilio&logoColor=white" alt="Twilio">
-        </td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px; border: 1px solid white;">
-          Front-End <br>
-          <img src="https://img.shields.io/badge/html5-black?style=flat&logo=html5&logoColor=white" alt="HTML5">
-          <img src="https://img.shields.io/badge/javascript-black?style=flat&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
-          <img src="https://img.shields.io/badge/css3-black?style=flat&logo=css3&logoColor=white" alt="CSS3">
-          <img src="https://img.shields.io/badge/tailwindcss-black?style=flat&logo=tailwind-css&logoColor=white" alt="TailwindCSS">
-          <img src="https://img.shields.io/badge/-GraphQL-black?style=flat&logo=graphql&logoColor=white" alt="GraphQL">
-          <img src="https://img.shields.io/badge/vite-black?style=flat&logo=vite&logoColor=white" alt="Vite">
-          <img src="https://img.shields.io/badge/vue.js-black?style=flat&logo=vuedotjs&logoColor=%234FC08D" alt="Vue.js">
-          <img src="https://img.shields.io/badge/NPM-black?style=flat&logo=npm&logoColor=white" alt="NPM">
-          <img src="https://img.shields.io/badge/yarn-black?style=flat&logo=yarn&logoColor=white" alt="Yarn">
-          <img src="https://img.shields.io/badge/.NET-black?style=flat&logo=.net&logoColor=white" alt=".Net">
-          <img src="https://img.shields.io/badge/bootstrap-black?style=flat&logo=bootstrap&logoColor=white" alt="Bootstrap">
-          <img src="https://img.shields.io/badge/chart.js-black?style=flat&logo=chart.js&logoColor=white" alt="Chart.js">
-        </td>
-        <td style="text-align: center; padding: 10px; border: 1px solid white;">
-          Adobe <br>
-          <img src="https://img.shields.io/badge/adobe-black?style=flat&logo=adobe&logoColor=white" alt="Adobe">
-          <img src="https://img.shields.io/badge/Adobe%20Acrobat%20Reader-black?style=flat&logo=Adobe%20Acrobat%20Reader&logoColor=white" alt="Adobe Acrobat Reader">
-          <img src="https://img.shields.io/badge/Adobe%20After%20Effects-black?style=flat&logo=Adobe%20After%20Effects&logoColor=white" alt="Adobe After Effects">
-          <img src="https://img.shields.io/badge/Adobe%20Dreamweaver-black?style=flat&logo=Adobe%20Dreamweaver&logoColor=white" alt="Adobe Dreamweaver">
-          <img src="https://img.shields.io/badge/adobe%20illustrator-black?style=flat&logo=adobe%20illustrator&logoColor=white" alt="Adobe Illustrator">
-          <img src="https://img.shields.io/badge/Adobe%20InDesign-black?style=flat&logo=adobeindesign&logoColor=FF3366" alt="Adobe InDesign">
-          <img src="https://img.shields.io/badge/Adobe%20Lightroom-black?style=flat&logo=Adobe%20Lightroom&logoColor=white" alt="Adobe Lightroom">
-          <img src="https://img.shields.io/badge/adobe%20photoshop-black?style=flat&logo=adobe%20photoshop&logoColor=white" alt="Adobe Photoshop">
-          <img src="https://img.shields.io/badge/Adobe%20Premiere%20Pro-black?style=flat&logo=Adobe%20Premiere%20Pro&logoColor=white" alt="Adobe Premiere Pro">
-        </td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px; border: 1px solid white;">
-          Database <br>
-          <img src="https://img.shields.io/badge/mysql-black?style=flat&logo=mysql&logoColor=white" alt="MySQL">
-          <img src="https://img.shields.io/badge/MariaDB-black?style=flat&logo=mariadb&logoColor=white" alt="MariaDB">
-          <img src="https://img.shields.io/badge/sqlite-black?style=flat&logo=sqlite&logoColor=white" alt="SQLite">
-          <img src="https://img.shields.io/badge/MongoDB-black?style=flat&logo=mongodb&logoColor=white" alt="MongoDB">
-          <img src="https://img.shields.io/badge/firebase-black?style=flat&logo=firebase&logoColor=ffcd34" alt="Firebase">
-          <img src="https://img.shields.io/badge/redis-black?style=flat&logo=redis&logoColor=white" alt="Redis">
-          <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-black?style=flat&logo=microsoft%20sql%20server&logoColor=white" alt="Microsoft SQL Server">
-        </td>
-        <td style="text-align: center; padding: 10px; border: 1px solid white;">
-          GitHub <br>
-          <img src="https://img.shields.io/badge/github%20actions-black?style=flat&logo=githubactions&logoColor=white" alt="GitHub Actions">
-          <img src="https://img.shields.io/badge/git-black?style=flat&logo=git&logoColor=white" alt="Git">
-          <img src="https://img.shields.io/badge/github-black?style=flat&logo=github&logoColor=white" alt="GitHub">
-          <img src="https://img.shields.io/badge/gitlab-black?style=flat&logo=gitlab&logoColor=white" alt="GitLab">
-        </td>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 10px; border: 1px solid white;">
-          Server <br>
-          <img src="https://img.shields.io/badge/Hostinger-black?logo=hostinger&logoColor=fff&style=flat" alt="Hostinger Badge">
-          <img src="https://img.shields.io/badge/Cloudflare-black?style=flat&logo=Cloudflare&logoColor=white" alt="Cloudflare">
-          <img src="https://img.shields.io/badge/DigitalOcean-black?style=flat&logo=digitalOcean&logoColor=white" alt="DigitalOcean">
-          <img src="https://img.shields.io/badge/firebase-black?style=flat&logo=firebase" alt="Firebase">
-          <img src="https://img.shields.io/badge/github%20pages-black?style=flat&logo=github&logoColor=white" alt="GitHub Pages">
-          <img src="https://img.shields.io/badge/GoogleCloud-black?style=flat&logo=google-cloud&logoColor=white" alt="Google Cloud">
-          <img src="https://img.shields.io/badge/heroku-black?style=flat&logo=heroku&logoColor=white" alt="Heroku">
-          <img src="https://img.shields.io/badge/Oracle-black?style=flat&logo=oracle&logoColor=white" alt="Oracle">
-          <img src="https://img.shields.io/badge/AWS-black?style=flat&logo=amazon-aws&logoColor=white" alt="AWS">
-          <img src="https://img.shields.io/badge/azure-black?style=flat&logo=microsoftazure&logoColor=white" alt="Azure">
-          <img src="https://img.shields.io/badge/PowerShell-black?style=flat&logo=powershell&logoColor=white" alt="PowerShell">
-          <img src="https://img.shields.io/badge/Windows%20Terminal-black?style=flat&logo=windows-terminal&logoColor=white" alt="Windows Terminal">
-          <img src="https://img.shields.io/badge/shell_script-black?style=flat&logo=gnu-bash&logoColor=white" alt="Shell Script">
-          <img src="https://img.shields.io/badge/yaml-black?style=flat&logo=yaml&logoColor=white" alt="YAML">
-          <img src="https://img.shields.io/badge/OpenGL-black?style=flat&logo=opengl" alt="OpenGL">
-        </td>
-        <td style="text-align: center; padding: 10px; border: 1px solid white;">
-          Others <br>
-          <img src="https://img.shields.io/badge/docker-black?style=flat&logo=docker&logoColor=white" alt="Docker">
-          <img src="https://img.shields.io/badge/react_native-black?style=flat&logo=react&logoColor=%2361DAFB" alt="React Native">
-          <img src="https://img.shields.io/badge/-React%20Query-black?style=flat&logo=react%20query&logoColor=white" alt="React Query">
-          <img src="https://img.shields.io/badge/SASS-black?style=flat&logo=SASS&logoColor=white" alt="SASS">
-          <img src="https://img.shields.io/badge/Socket.io-black?style=flat&logo=socket.io&badgeColor=010101" alt="Socket.io">
-          <img src="https://img.shields.io/badge/WebGL-black?logo=webgl&logoColor=white&style=flat" alt="WebGL">
-          <img src="https://img.shields.io/badge/webpack-black?style=flat&logo=webpack&logoColor=white" alt="Webpack">
-          <img src="https://img.shields.io/badge/web3.js-black?style=flat&logo=web3.js&logoColor=white" alt="Web3.js">
-          <img src="https://img.shields.io/badge/Codeberg-black?style=flat&logo=Codeberg&logoColor=white" alt="Codeberg">
-          <img src="https://img.shields.io/badge/Openstack-black?style=flat&logo=openstack&logoColor=white" alt="OpenStack">
-          <img src="https://img.shields.io/badge/CodeIgniter-black?style=flat&logo=codeIgniter&logoColor=white" alt="CodeIgniter">
-          <img src="https://img.shields.io/badge/-RaspberryPi-black?style=flat&logo=Raspberry-Pi" alt="Raspberry Pi">
-          <img src="https://img.shields.io/badge/redux-black?style=flat&logo=redux&logoColor=white" alt="Redux">
-          <img src="https://img.shields.io/badge/express.js-black?style=flat&logo=express&logoColor=%2361DAFB" alt="Express.js">
-          <img src="https://img.shields.io/badge/Flutter-black?style=flat&logo=Flutter&logoColor=white" alt="Flutter">
-        </td>
-      </tr>
-      </table>
-    </div>
-
-    <div style="text-align: center; padding-left: 50px; padding-right: 50px; padding-top: 20px;">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=dyimz&custom_title=Dyimz%20Contribution%20Graph&theme=react-dark" alt="">
-    </div>
-
+          <!-- Second Row -->
+          <div class="col-12 d-flex justify-content-center align-items-center border py-3 px-5">
+            <div class="table-responsive">
+              <table class="table table-bordered text-center">
+                <tr>
+                  <td>
+                    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Dyimz&stroke=ffffff&background=000000&ring=5BCDEC&fire=5BCDEC&currStreakNum=ffffff&currStreakLabel=5BCDEC&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="GitHub Streak Stats">
+                    <br><br>
+                    <span>
+                      <img src="https://img.shields.io/badge/laravel-black?style=flat&logo=laravel&logoColor=white" alt="Laravel">
+                      <img src="https://img.shields.io/badge/mysql-black?style=flat&logo=mysql&logoColor=white" alt="MySQL">
+                      <img src="https://img.shields.io/badge/apache-black?style=flat&logo=apache&logoColor=white" alt="Apache">
+                      <img src="https://img.shields.io/badge/nginx-black?style=flat&logo=nginx&logoColor=white" alt="Nginx">
+                      <img src="https://img.shields.io/badge/node.js-black?style=flat&logo=node.js&logoColor=white" alt="NodeJS">
+                      <img src="https://img.shields.io/badge/react-black?style=flat&logo=react&logoColor=%2361DAFB" alt="React">
+                      <img src="https://img.shields.io/badge/cisco-black?style=flat&logo=cisco&logoColor=white" alt="Cisco">
+                      </span>
+                  </td>
+                  <td>
+                    <a href="https://github.com/dyimz/github-readme-stats" style="text-decoration: none; color: #ffffff;">
+                      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dyimz&theme=dark&custom_title=Most-Used-Languages" alt="Most-Used Languages">
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <b>Back-End</b><br>
+                    <div class="d-flex flex-wrap justify-content-center align-items-center">
+                      <img src="https://img.shields.io/badge/php-black?style=flat&logo=php&logoColor=white" alt="PHP">
+                      <img src="https://img.shields.io/badge/python-black?style=flat&logo=python&logoColor=ffdd54" alt="Python">
+                      <img src="https://img.shields.io/badge/c-black?style=flat&logo=c&logoColor=white" alt="C">
+                      <img src="https://img.shields.io/badge/c%23-black?style=flat&logo=csharp&logoColor=white" alt="C#">
+                      <img src="https://img.shields.io/badge/c++-black?style=flat&logo=c%2B%2B&logoColor=white" alt="C++">
+                      <img src="https://img.shields.io/badge/java-black?style=flat&logo=openjdk&logoColor=white" alt="Java">
+                      <img src="https://img.shields.io/badge/kotlin-black?style=flat&logo=kotlin&logoColor=white" alt="Kotlin">
+                    </div>
+                  </td>
+                  <td>
+                    <b>Design</b><br>
+                    <div class="d-flex flex-wrap justify-content-center align-items-center">
+                      <img src="https://img.shields.io/badge/WordPress-black?style=flat&logo=WordPress&logoColor=white" alt="WordPress">
+                      <img src="https://img.shields.io/badge/Canva-black?style=flat&logo=Canva&logoColor=white" alt="Canva">
+                      <img src="https://img.shields.io/badge/Figma-black?style=flat&logo=figma&logoColor=white" alt="Figma">
+                      <img src="https://img.shields.io/badge/Notion-black?style=flat&logo=notion&logoColor=white" alt="Notion">
+                      <img src="https://img.shields.io/badge/Portfolio-black?style=flat&logo=firefox&logoColor=#FF7139" alt="Portfolio">
+                      <img src="https://img.shields.io/badge/Postman-black?style=flat&logo=postman&logoColor=white" alt="Postman">
+                      <img src="https://img.shields.io/badge/Prezi-black?style=flat&logo=Prezi&logoColor=white" alt="Prezi">
+                      <img src="https://img.shields.io/badge/Twilio-black?style=flat&logo=Twilio&logoColor=white" alt="Twilio">
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <b>Front-End</b><br>
+                    <div class="d-flex flex-wrap justify-content-center align-items-center">
+                      <img src="https://img.shields.io/badge/html5-black?style=flat&logo=html5&logoColor=white" alt="HTML5">
+                      <img src="https://img.shields.io/badge/javascript-black?style=flat&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
+                      <img src="https://img.shields.io/badge/css3-black?style=flat&logo=css3&logoColor=white" alt="CSS3">
+                      <img src="https://img.shields.io/badge/tailwindcss-black?style=flat&logo=tailwind-css&logoColor=white" alt="TailwindCSS">
+                      <img src="https://img.shields.io/badge/-GraphQL-black?style=flat&logo=graphql&logoColor=white" alt="GraphQL">
+                      <img src="https://img.shields.io/badge/vite-black?style=flat&logo=vite&logoColor=white" alt="Vite">
+                      <img src="https://img.shields.io/badge/vue.js-black?style=flat&logo=vuedotjs&logoColor=%234FC08D" alt="Vue.js">
+                      <img src="https://img.shields.io/badge/NPM-black?style=flat&logo=npm&logoColor=white" alt="NPM">
+                      <img src="https://img.shields.io/badge/yarn-black?style=flat&logo=yarn&logoColor=white" alt="Yarn">
+                      <img src="https://img.shields.io/badge/.NET-black?style=flat&logo=.net&logoColor=white" alt=".Net">
+                      <img src="https://img.shields.io/badge/bootstrap-black?style=flat&logo=bootstrap&logoColor=white" alt="Bootstrap">
+                      <img src="https://img.shields.io/badge/chart.js-black?style=flat&logo=chart.js&logoColor=white" alt="Chart.js">
+                    </div>
+                  </td>
+                  <td>
+                    <b>Adobe</b><br>
+                    <div class="d-flex flex-wrap justify-content-center align-items-center">
+                      <img src="https://img.shields.io/badge/adobe-black?style=flat&logo=adobe&logoColor=white" alt="Adobe">
+                      <img src="https://img.shields.io/badge/Adobe%20Acrobat%20Reader-black?style=flat&logo=Adobe%20Acrobat%20Reader&logoColor=white" alt="Adobe Acrobat Reader">
+                      <img src="https://img.shields.io/badge/Adobe%20After%20Effects-black?style=flat&logo=Adobe%20After%20Effects&logoColor=white" alt="Adobe After Effects">
+                      <img src="https://img.shields.io/badge/Adobe%20Dreamweaver-black?style=flat&logo=Adobe%20Dreamweaver&logoColor=white" alt="Adobe Dreamweaver">
+                      <img src="https://img.shields.io/badge/adobe%20illustrator-black?style=flat&logo=adobe%20illustrator&logoColor=white" alt="Adobe Illustrator">
+                      <img src="https://img.shields.io/badge/Adobe%20InDesign-black?style=flat&logo=adobeindesign&logoColor=FF3366" alt="Adobe InDesign">
+                      <img src="https://img.shields.io/badge/Adobe%20Lightroom-black?style=flat&logo=Adobe%20Lightroom&logoColor=white" alt="Adobe Lightroom">
+                      <img src="https://img.shields.io/badge/adobe%20photoshop-black?style=flat&logo=adobe%20photoshop&logoColor=white" alt="Adobe Photoshop">
+                      <img src="https://img.shields.io/badge/Adobe%20Premiere%20Pro-black?style=flat&logo=Adobe%20Premiere%20Pro&logoColor=white" alt="Adobe Premiere Pro">
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <b>Database</b><br>
+                    <div class="d-flex flex-wrap justify-content-center align-items-center">
+                      <img src="https://img.shields.io/badge/mysql-black?style=flat&logo=mysql&logoColor=white" alt="MySQL">
+                      <img src="https://img.shields.io/badge/MariaDB-black?style=flat&logo=mariadb&logoColor=white" alt="MariaDB">
+                      <img src="https://img.shields.io/badge/sqlite-black?style=flat&logo=sqlite&logoColor=white" alt="SQLite">
+                      <img src="https://img.shields.io/badge/MongoDB-black?style=flat&logo=mongodb&logoColor=white" alt="MongoDB">
+                      <img src="https://img.shields.io/badge/firebase-black?style=flat&logo=firebase&logoColor=ffcd34" alt="Firebase">
+                      <img src="https://img.shields.io/badge/redis-black?style=flat&logo=redis&logoColor=white" alt="Redis">
+                      <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-black?style=flat&logo=microsoft%20sql%20server&logoColor=white" alt="Microsoft SQL Server">
+                    </div>
+                  </td>
+                  <td>
+                    <b>GitHub</b><br>
+                    <div class="d-flex flex-wrap justify-content-center align-items-center">
+                      <img src="https://img.shields.io/badge/github%20actions-black?style=flat&logo=githubactions&logoColor=white" alt="GitHub Actions">
+                      <img src="https://img.shields.io/badge/git-black?style=flat&logo=git&logoColor=white" alt="Git">
+                      <img src="https://img.shields.io/badge/github-black?style=flat&logo=github&logoColor=white" alt="GitHub">
+                      <img src="https://img.shields.io/badge/gitlab-black?style=flat&logo=gitlab&logoColor=white" alt="GitLab">
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <b>Server</b><br>
+                    <div class="d-flex flex-wrap justify-content-center align-items-center">
+                      <img src="https://img.shields.io/badge/Hostinger-black?logo=hostinger&logoColor=fff&style=flat" alt="Hostinger Badge">
+                      <img src="https://img.shields.io/badge/Cloudflare-black?style=flat&logo=Cloudflare&logoColor=white" alt="Cloudflare">
+                      <img src="https://img.shields.io/badge/DigitalOcean-black?style=flat&logo=digitalOcean&logoColor=white" alt="DigitalOcean">
+                      <img src="https://img.shields.io/badge/firebase-black?style=flat&logo=firebase" alt="Firebase">
+                      <img src="https://img.shields.io/badge/github%20pages-black?style=flat&logo=github&logoColor=white" alt="GitHub Pages">
+                      <img src="https://img.shields.io/badge/GoogleCloud-black?style=flat&logo=google-cloud&logoColor=white" alt="Google Cloud">
+                      <img src="https://img.shields.io/badge/heroku-black?style=flat&logo=heroku&logoColor=white" alt="Heroku">
+                      <img src="https://img.shields.io/badge/Oracle-black?style=flat&logo=oracle&logoColor=white" alt="Oracle">
+                      <img src="https://img.shields.io/badge/AWS-black?style=flat&logo=amazon-aws&logoColor=white" alt="AWS">
+                      <img src="https://img.shields.io/badge/azure-black?style=flat&logo=microsoftazure&logoColor=white" alt="Azure">
+                      <img src="https://img.shields.io/badge/PowerShell-black?style=flat&logo=powershell&logoColor=white" alt="PowerShell">
+                      <img src="https://img.shields.io/badge/Windows%20Terminal-black?style=flat&logo=windows-terminal&logoColor=white" alt="Windows Terminal">
+                      <img src="https://img.shields.io/badge/shell_script-black?style=flat&logo=gnu-bash&logoColor=white" alt="Shell Script">
+                      <img src="https://img.shields.io/badge/yaml-black?style=flat&logo=yaml&logoColor=white" alt="YAML">
+                      <img src="https://img.shields.io/badge/OpenGL-black?style=flat&logo=opengl" alt="OpenGL">
+                    </div>
+                  </td>
+                  <td>
+                    <b>Others</b><br>
+                    <div class="d-flex flex-wrap justify-content-center align-items-center">
+                      <img src="https://img.shields.io/badge/docker-black?style=flat&logo=docker&logoColor=white" alt="Docker">
+                      <img src="https://img.shields.io/badge/react_native-black?style=flat&logo=react&logoColor=%2361DAFB" alt="React Native">
+                      <img src="https://img.shields.io/badge/-React%20Query-black?style=flat&logo=react%20query&logoColor=white" alt="React Query">
+                      <img src="https://img.shields.io/badge/SASS-black?style=flat&logo=SASS&logoColor=white" alt="SASS">
+                      <img src="https://img.shields.io/badge/Socket.io-black?style=flat&logo=socket.io&badgeColor=010101" alt="Socket.io">
+                      <img src="https://img.shields.io/badge/WebGL-black?logo=webgl&logoColor=white&style=flat" alt="WebGL">
+                      <img src="https://img.shields.io/badge/webpack-black?style=flat&logo=webpack&logoColor=white" alt="Webpack">
+                      <img src="https://img.shields.io/badge/web3.js-black?style=flat&logo=web3.js&logoColor=white" alt="Web3.js">
+                      <img src="https://img.shields.io/badge/Codeberg-black?style=flat&logo=Codeberg&logoColor=white" alt="Codeberg">
+                      <img src="https://img.shields.io/badge/Openstack-black?style=flat&logo=openstack&logoColor=white" alt="OpenStack">
+                      <img src="https://img.shields.io/badge/CodeIgniter-black?style=flat&logo=codeIgniter&logoColor=white" alt="CodeIgniter">
+                      <img src="https://img.shields.io/badge/-RaspberryPi-black?style=flat&logo=Raspberry-Pi" alt="Raspberry Pi">
+                      <img src="https://img.shields.io/badge/redux-black?style=flat&logo=redux&logoColor=white" alt="Redux">
+                      <img src="https://img.shields.io/badge/express.js-black?style=flat&logo=express&logoColor=%2361DAFB" alt="Express.js">
+                      <img src="https://img.shields.io/badge/Flutter-black?style=flat&logo=Flutter&logoColor=white" alt="Flutter">
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          
+          <!-- Third Row -->
+          <div class="col-12 d-flex justify-content-center align-items-center border py-3">
+            <img
+              class="img-fluid"
+              src="https://github-readme-activity-graph.vercel.app/graph?username=dyimz&custom_title=Dyimz%20Contribution%20Graph&theme=react-dark"
+              alt="Contribution Graph"
+              style="max-width: 100%; height: auto;"
+            >
+          </div>
     
-
-    <footer>
-      <h3>Connect with me @</h3>
-      <div class="connect-links">
-        <a href="https://www.linkedin.com/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-black?style=flat-square&logo=Linkedin" alt="LinkedIn"></a>
-        <a href="https://github.com/dyimz" target="_blank"><img src="https://img.shields.io/badge/GitHub-black?style=flat-square&logo=GitHub" alt="GitHub"></a>
-        <a href="mailto:jameschristianvillamin@gmail.com"><img src="https://img.shields.io/badge/Gmail-black?style=flat-square&logo=Gmail" alt="Gmail"></a>
-        <a href="https://discord.gg/dyimz" target="_blank"><img src="https://img.shields.io/badge/Discord-black?logo=discord&logoColor=white" alt="Discord"></a>
-        <a href="https://facebook.com/dyimz1324" target="_blank"><img src="https://img.shields.io/badge/Facebook-black?logo=Facebook&logoColor=white" alt="Facebook"></a>
-        <a href="https://instagram.com/dyimzkrizhan" target="_blank"><img src="https://img.shields.io/badge/Instagram-black?logo=Instagram&logoColor=white" alt="Instagram"></a>
-        <a href="https://x.com/dyimz1324" target="_blank"><img src="https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white" alt="X"></a>
+          <!-- Fourth Row -->
+          <div class="col-12 d-flex flex-column justify-content-center align-items-center border py-3">
+            <h3>Connect with me @</h3>
+            <div class="d-flex flex-wrap justify-content-center gap-2 mt-2">
+              <a href="https://www.linkedin.com/" target="_blank">
+                <img src="https://img.shields.io/badge/LinkedIn-black?style=flat-square&logo=Linkedin" alt="LinkedIn">
+              </a>
+              <a href="https://github.com/dyimz" target="_blank">
+                <img src="https://img.shields.io/badge/GitHub-black?style=flat-square&logo=GitHub" alt="GitHub">
+              </a>
+              <a href="mailto:jameschristianvillamin@gmail.com">
+                <img src="https://img.shields.io/badge/Gmail-black?style=flat-square&logo=Gmail" alt="Gmail">
+              </a>
+              <a href="https://discord.gg/dyimz" target="_blank">
+                <img src="https://img.shields.io/badge/Discord-black?logo=discord&logoColor=white" alt="Discord">
+              </a>
+              <a href="https://facebook.com/dyimz1324" target="_blank">
+                <img src="https://img.shields.io/badge/Facebook-black?logo=Facebook&logoColor=white" alt="Facebook">
+              </a>
+              <a href="https://instagram.com/dyimzkrizhan" target="_blank">
+                <img src="https://img.shields.io/badge/Instagram-black?logo=Instagram&logoColor=white" alt="Instagram">
+              </a>
+              <a href="https://x.com/dyimz1324" target="_blank">
+                <img src="https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white" alt="X">
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-    </footer>
-    <br>
-    <br>
-    <br>
-    <br>
-
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+ 
+  
   </body>
 </html>
